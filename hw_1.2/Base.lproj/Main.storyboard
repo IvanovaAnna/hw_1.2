@@ -33,7 +33,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rj7-cQ-WTg">
-                                <rect key="frame" x="107" y="761" width="200" height="61"/>
+                                <rect key="frame" x="107" y="760" width="200" height="62"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="SK5-et-tJg"/>
@@ -42,7 +42,8 @@
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="START">
-                                    <fontDescription key="titleFontDescription" name="Menlo-Bold" family="Menlo" pointSize="40"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="40"/>
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="switchColorPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qmd-H7-FRa"/>
@@ -85,6 +86,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
